@@ -1,8 +1,11 @@
 Apigee Settings Private Address
 =========
 
-This role will place the private IP address of an Apigee node in a variable named `private_address`.
-The Ansible cache will be updated with `private_address` after this role is invoked.
+This role updates the Ansible cache with attributes that are used to generate templates and make 
+installation decisions. 
+
+This role will add the following attributes to the Ansible cache: 
+* private_address
 
 Requirements
 ------------
